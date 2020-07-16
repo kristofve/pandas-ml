@@ -3,9 +3,9 @@
 import warnings
 
 import pandas.compat as compat
-from pandas.util.decorators import Appender
 
 import pandas_ml.misc as misc
+from pandas_ml.compat import Appender
 
 
 _shared_docs = dict()

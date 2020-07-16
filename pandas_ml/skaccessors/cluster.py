@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-from pandas.util.decorators import cache_readonly
-
+from pandas_ml.compat import cache_readonly
 from pandas_ml.core.accessor import _AccessorMethods, _attach_methods, _wrap_data_func
 
 

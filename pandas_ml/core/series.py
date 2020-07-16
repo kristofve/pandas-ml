@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 import pandas as pd
-from pandas.util.decorators import Appender, cache_readonly
 
-from pandas_ml.core.generic import ModelTransformer, _shared_docs
 import pandas_ml.skaccessors as skaccessors
 import pandas_ml.util as util
+from pandas_ml.compat import Appender, cache_readonly
+from pandas_ml.core.generic import ModelTransformer, _shared_docs
 
 
 class ModelSeries(ModelTransformer, pd.Series):

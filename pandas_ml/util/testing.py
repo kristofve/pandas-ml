@@ -3,13 +3,13 @@
 import numpy as np
 import pandas.util.testing as tm
 
+from pandas_ml.compat import plotting
 from pandas.util.testing import (assert_produces_warning,           # noqa
                                  close, RNGContext,                 # noqa
                                  assert_index_equal,                # noqa
                                  assert_series_equal,               # noqa
                                  assert_frame_equal,                # noqa
                                  assert_numpy_array_equal)          # noqa
-import pandas.tools.plotting as plotting
 
 
 try:
